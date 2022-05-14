@@ -1,0 +1,148 @@
+.navbar {
+    background: var(--primary);
+    background: #021157bd;
+    box-shadow: 0 4px 6px -1px #0000001a,
+        0 2px 4px -1px #0000000f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar_inner {
+    align-items: center;
+}
+
+.navbar__center {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+}
+
+.navbar__logo--container {
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+
+.navbar__logo--container a {
+    text-decoration: none;
+}
+
+.navbar__logo {
+    color: var(--white);
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+}
+
+.nav__toggle {
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.7rem;
+    display: flex;
+}
+.nav__toggle svg{
+    fill: var(--white);
+}
+
+.nav__links {
+    height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    transition: all 0.3s linear;
+}
+
+.nav__list {
+    padding: 0 0.3rem;
+    transition: all 0.3s linear;
+    text-align: left !important;
+    margin: 10px !important;
+
+}
+
+.nav__list:hover {
+    cursor: pointer;
+}
+
+.nav__list:hover .nav__link {
+    color: #f1f1f1;
+    padding-left: 2.2rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-left: 2rem;
+    font-size: 1rem;
+    color: var(--white);
+    transition: all 0.3s linear;
+
+}
+
+.show__links {
+    height: max-content !important;
+}
+
+@media screen and (min-width: 400px) {
+    .navbar__logo {
+        font-size: 1.4rem;
+    }
+
+    .nav__logo--truck {
+        font-size: 1.4rem;
+    }
+
+    .nav__toggle {
+        font-size: 2rem;
+    }
+
+    .nav__link {
+        font-size: 1.2rem;
+    }
+
+    .show__links {
+        height: 154px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        padding-right: 2rem;
+    }
+
+    .navbar_inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .navbar__center {
+        margin-left: 0rem;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__links {
+        display: flex;
+        height: auto;
+    }
+
+    .nav__list:hover .nav__link {
+        padding: 0rem 0.4rem;
+    }
+
+    .nav__list {
+        margin-right: 0rem;
+    }
+
+    .nav__link {
+        padding: 0rem 0.4rem;
+    }
+}
