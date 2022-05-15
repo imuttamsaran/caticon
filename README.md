@@ -17,10 +17,9 @@ Setting the website up locally, which is more technical.
 Code & Design The Website
 You need some basic ability to use a terminal as well as some knowledge of web development like HTML, CSS, and JavaScript.
 
-Fork and clone the main website repository
-git clone --single-branch --branch master git@github.com:imuttamsaran/caticon.git
-cd caticon/
-
+git clone --single-branch --branch master https://github.com/imuttamsaran/caticon.git
+cd caticon
+bundle install
 
 👩‍🚀 Contributors, backers & sponsors
 This project exists thanks to all the people who contribute. 
