@@ -1,5 +1,5 @@
 https://caticon.netlify.app/
-Website of the Open Source Design community, hosted on netlify.
+Website of the catIcon svg icons community, hosted on netlify.
 
 Edit Website
 Editing content on https://caticon.netlify.app/ can be done in 3 ways, all of which require a GitHub account.
