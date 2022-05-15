@@ -272,6 +272,26 @@ li {
 }
 
 
+/* footer query */
+footer {
+    text-align: center;
+    padding: 50px 0;
+}
+.site-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-footer svg{
+    fill: var(--white);
+    margin: 0 5px;
+}
+
+.gitFriends{
+    color: var(--primary);
+    text-decoration: none;
+    margin-left: 5px;
+}
 /* media query */
 
 @media screen and (min-width: 500px) {
