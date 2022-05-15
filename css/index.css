@@ -67,16 +67,19 @@ main {
     width: 100%;
     text-align: center;
 }
-.contri{
+
+.contri {
     padding-top: 10px;
     border-top: 2px solid var(--white);
 }
+
 .bug {
     margin: 10px auto;
     padding: 1rem 1rem 1rem 0rem;
     color: var(--white);
 }
-.bug a{
+
+.bug a {
     text-decoration: none;
     width: fit-content;
     color: initial;
@@ -85,10 +88,22 @@ main {
     font-size: 18px;
 }
 
-.bug a:hover{
+.bug a:hover {
     background-color: var(--primary);
     border-color: var(--primary);
     color: var(--white);
+}
+
+.submit {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--black);
+    border: 1px solid #978c8c;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
 }
 
 .hero-text h1 {
@@ -195,55 +210,6 @@ li {
     cursor: pointer;
 }
 
-
-@media screen and (min-width: 500px) {
-    .hero-image img {
-        width: auto;
-        margin-left: 0px;
-
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .hero-text {
-        width: 58.33333333%;
-        text-align: left !important;
-    }
-
-    .hero-image {
-        width: 41.66666667%;
-    }
-
-    .hero-image img {
-        width: auto;
-        height: 340px;
-        margin-bottom: 0px;
-    }
-    .bug button{
-       margin: 0;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .main-center {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-}
-
-@media screen and (max-width: 500px) {
-    .header {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .header .heading {
-        margin-bottom: 20px;
-    }
-
-}
-
 /* Popup css  */
 .modal {
     display: none;
@@ -305,78 +271,54 @@ li {
     border-radius: 100vw;
 }
 
-/* css for contact form  */
 
+/* media query */
 
-/* ********* contact ************************** */
-.contact {
-    margin-bottom: 50px;
-    margin-top: 100px;
-    text-align: center;
+@media screen and (min-width: 500px) {
+    .hero-image img {
+        width: auto;
+        margin-left: 0px;
+
+    }
 }
 
-form {
-    width: 90%;
-    max-width: 700px;
-    margin: auto;
+@media screen and (min-width: 992px) {
+    .hero-text {
+        width: 58.33333333%;
+        text-align: left !important;
+    }
+
+    .hero-image {
+        width: 41.66666667%;
+    }
+
+    .hero-image img {
+        width: auto;
+        height: 340px;
+        margin-bottom: 0px;
+    }
+
+    .bug a {
+        margin: 0;
+    }
 }
 
-form div {
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 992px) {
+    .main-center {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
 }
 
-form div input[type="email"] {
-    margin-left: 20px;
-}
+@media screen and (max-width: 500px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-input, textarea {
-    height: 40px;
-    width: 100%;
-    margin: 10px auto;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    border: 1.75px solid #978c8c;
-    color: var(--black);
-    letter-spacing: 1px;
-    padding: 10px;
-    caret-color: var(--cyan);
-}
+    .header .heading {
+        margin-bottom: 20px;
+    }
 
-input::placeholder, textarea::placeholder {
-    font-weight: bolder;
-    margin-left: -10px;
-}
-
-textarea {
-    font-family: 'Rubik', sans-serif;
-    height: 170px;
-    resize: vertical;
-    overflow: hidden;
-    padding: 10px;
-}
-
-.submit {
-    cursor: pointer;
-    background-color: transparent;
-    color: var(--black);
-    border: 1px solid #978c8c;
-    padding: 10px 20px;
-    transition: 0.3s;
-    border-radius: 4px;
-    margin: auto;
-    display: flex;
-}
-
-.submit:hover {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-.message {
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
-    color: var(--black);
 }
