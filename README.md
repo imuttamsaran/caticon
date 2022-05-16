@@ -1,14 +1,13 @@
 ## [**catIcon**](https://caticon.netlify.app/)
 Website of the catIcon svg icons community, hosted on netlify.
 
-
-# Important for contributers and supporters
+# 🔴 Important for contributers and supporters
 
 *// Start from here*
 
 ** See image**  
 
-![This is an image](/assets/images/electrocat.png)
+![This is an image](/img/codeImage.png)
 
 
   <div class="module_box">
@@ -68,18 +67,19 @@ Website of the catIcon svg icons community, hosted on netlify.
     <span class="p">&lt;/</span><span class="nt">svg</span><span class="p">&gt;</span>
     </code>
     </pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
                         
-*// End here*                        
+*// End here*   
 
-Do not change any class name and Id(except who which is gonna be edit).
 
-as well as you can add fileName.svg into svgIcon in main directory.
+### Do not change any class name and Id(except who which is gonna be edit).
+
+### as well as you can add fileName.svg into svgIcon in main directory.
 
 Edit Website
 Editing content on https://caticon.netlify.app/ can be done in 3 ways, all of which require a GitHub account.
