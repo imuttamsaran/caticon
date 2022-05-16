@@ -1,4 +1,5 @@
-## [**catIcon**](https://caticon.netlify.app/)
+## [**catIcon**](https://caticon.netlify.app/)  ![logo](/img/logoGit.png)
+
 Website of the catIcon svg icons community, hosted on netlify.
 
 # 🔴 Important for contributers and supporters
