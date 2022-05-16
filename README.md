@@ -82,7 +82,7 @@ Website of the catIcon svg icons community, hosted on netlify.
 ### as well as you can add fileName.svg into svgIcon in main directory.
 
 Edit Website
-Editing content on https://caticon.netlify.app/ can be done in 3 ways, all of which require a GitHub account.
+Editing content on [catIcon](https://caticon.netlify.app/) can be done in 3 ways, all of which require a GitHub account.
 
 Using GitHub's nifty file editor, which is quick but limited:
 
@@ -119,5 +119,5 @@ Support this project by becoming a sponsor. (Become a sponsor)
 ♥ Code of Conduct
 Please note that catIcon has a Contributor Code of Conduct. By participating in this project online or at events you agree to abide by its terms.
 
-📜 https://github.com/imuttamsaran/caticon/blob/main/LICENSE
+📜 [LICENSE](https://github.com/imuttamsaran/caticon/blob/main/LICENSE)
 🔀 You can use & modify everything as long as you credit catIcon and use the same license for your resulting work.
