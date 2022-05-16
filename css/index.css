@@ -101,7 +101,6 @@ main {
     border: 1px solid #978c8c;
     padding: 10px 20px;
     transition: 0.3s;
-    border-radius: 4px;
     margin: auto;
     display: flex;
 }
@@ -157,7 +156,6 @@ main {
     color: #000;
     outline: none;
     border: 2px solid #f0f0f0;
-    border-radius: 10px;
     padding: 0 3.5rem 0 1.5rem;
     letter-spacing: 0;
     margin: 0;
@@ -251,14 +249,14 @@ li {
 
 /* ********* Scrollbar ************************** */
 
-.modal ::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     display: block;
     width: 8px;
     height: 4px;
     transition: width 0.5s ease-in-out;
 }
 
-.modal ::-webkit-scrollbar-track {
+ ::-webkit-scrollbar-track {
     background-color: transparent;
     border-radius: 100vw;
     margin-inline: 1em;
@@ -266,7 +264,7 @@ li {
     border: none;
 }
 
-.modal ::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
     background: #dfdfdf;
     border-radius: 100vw;
 }
