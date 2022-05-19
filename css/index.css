@@ -90,7 +90,7 @@ main {
 .bug a:hover {
     border-color: var(--primary);
     color: var(--white);
-        background-color: transparent;
+    background-color: transparent;
 }
 
 .submit {
@@ -104,16 +104,21 @@ main {
     display: flex;
 }
 
+.hero-text .hero-head{
+    
+    font-size: clamp(1rem, 2vw + 1.5rem, 4rem);
+}
 .hero-text h1 {
     font-size: clamp(1rem, 2vw + 1.5rem, 4rem);
+    font-size: clamp(0.5rem, 2vw + 1rem, 1.25rem);
+    font-weight: normal;
 }
 
 .hero-text p {
-    font-size: clamp(0.5rem, 2vw + 1rem, 1.25rem);
+    font-size: clamp(0.5rem, 1vw + 1rem, 1.05rem);
 }
 
 .hero-image {
-    /* width: 100%; */
     height: max-content;
     text-align: center;
 }
@@ -121,8 +126,6 @@ main {
 .hero-image img {
     max-height: 340px;
     margin-bottom: 40px;
-    /* width: auto !important; */
-    /* margin-left: -50px; */
 }
 
 /* ************** Icon container ***************** */
