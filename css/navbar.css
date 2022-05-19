@@ -64,10 +64,11 @@
 
 .nav__list:hover {
     cursor: pointer;
+    
 }
 
 .nav__list:hover .nav__link {
-    color: #f1f1f1;
+    color: #f38a00;
     padding-left: 2.2rem;
 }
 
