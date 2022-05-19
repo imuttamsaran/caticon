@@ -207,7 +207,9 @@ li {
     margin: 20px;
     cursor: pointer;
 }
-
+.brand{
+  display: none;
+}
 /* Popup css  */
 .modal {
     display: none;
