@@ -64,6 +64,7 @@
 
 .nav__list:hover {
     cursor: pointer;
+    
 }
 
 .nav__list:hover .nav__link {
