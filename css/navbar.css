@@ -68,7 +68,7 @@
 }
 
 .nav__list:hover .nav__link {
-    color: #f38a00;
+    color: var(--primary);
     padding-left: 2.2rem;
 }
 
