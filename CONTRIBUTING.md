@@ -1,5 +1,4 @@
-Welcome to catIcon
-Welcome!
+Welcome to catIcon!
 
 Before diving into catIcon, have a look at our mission:
 
