@@ -12,4 +12,5 @@ Open Source: Open source is a catch all term for what is generally known as Free
 There are different ways to contribute to catIcon. How to best contribute will depend upon your skill set. However, it is important to determine if you want to contribute to the catIcon project itself and/or our community, or if you want to contribute design related resources.
 
 Want to fund catIcon projects? (YES)
+
 Give us some spare change every month and we will make cool stuff happen.
