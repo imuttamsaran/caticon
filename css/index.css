@@ -191,6 +191,7 @@ main {
 .box a {
     text-decoration: none;
     color: inherit;
+    font-size: clamp(0.2rem, 1vw + 1rem, 1rem);
 }
 
 .icon {
