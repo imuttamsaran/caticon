@@ -198,6 +198,8 @@ main {
     padding: 2.5rem 3rem;
     background-color: #f9f9f9;
     position: relative;
+    min-width: 120px;
+    min-height: 120px;
 }
 
 li:hover a, li:hover svg {
