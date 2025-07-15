@@ -16,7 +16,7 @@ function Navbar() {
           <span className="nav_brand">CatIcon</span>
         </div>
         <ul className="nav_list">
-          <li><a href="#" className="nav_link">Home</a></li>
+          <li><a href="/" className="nav_link">Home</a></li>
         </ul>
       </div>
     </nav>
