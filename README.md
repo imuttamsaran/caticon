@@ -1,71 +1,124 @@
-## [**catIcon**](https://caticon.netlify.app/)  ![logo](/img/logoGit.png)
+# [🔗 catIcon](https://caticonlibrary.netlify.app/)
 
-Website of the catIcon svg icons community, hosted on netlify.
+An open-source, community-driven SVG icon library – clean, customizable, and lightweight. Hosted on [Netlify](https://netlify.com).
 
-## 🔴 Important for contributers and supporters
+---
 
+## 🚨 Important for Contributors & Supporters
 
+> ⚠️ **Please read carefully before contributing**
 
-** See image**  
-Edit red part only shows in below image.
+### ✏️ Editable Code Format (Only edit the red part as shown below)
 
-![This is an image](/img/codeImage.png)
-
-
- 
-<div class="code-bg" tooltip="Click on code to Copy" tooltip-position="bottom">
-    <pre tabindex="0" class="codeColor" id="code-text">
-        <code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">svg</span> <span class="na">xmlns</span><span class="o">=</span><span                class="s">"http://www.w3.org/2000/svg"</span> <span class="na">width</span><span class="o">=</span><span class="s">"1.5rem"</span> <span                                class="na">height</span><span class="o">=</span><span class="s">"1.5rem"</span> <span class="na">fill</span><span class="o">=</span><span                              class="s">"currentColor"</span> <span class="na">class</span><span class="o">=</span><span class="s">"catIcon"</span> <span class="na">viewBox</span>                <span class="o">=</span><span class="s">"0 0 16 16"</span><span class="p">&gt;</span>
-             <span class="p">&lt;</span><span class="nt">path</span> <span class="na">d</span><span class="o">=</span><span class="s">"add path here"</span><span                      class="p">/&gt;</span>
-             <span class="p">&lt;/</span><span class="nt">svg</span><span class="p">&gt;</span>
-        </code>
-    </pre>
-</div>
-                             
+\`\`\`html
+<svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="catIcon" viewBox="0 0 16 16">
+  <path d="add path here" />
+</svg>
+\`\`\`
 
 
+- DO NOT change any class names, IDs, or SVG structure unless you're told to.
+- Only edit the \`<path>\` tag or the actual \`d\` attribute.
 
-### Do not change any class name and Id(except who which is gonna be edit).
+---
 
-### as well as you can add fileName.svg into svgIcon in main directory.
+## 🗂 Where to Add Icons
 
-Edit Website
-Editing content on [catIcon](https://caticon.netlify.app/) can be done in 3 ways, all of which require a GitHub account.
+Place your SVG files in the \`svgIcon/\` directory.
 
-Using GitHub's nifty file editor, which is quick but limited:
+**Example:**
 
+\`\`\`
+svgIcon/
+  ├── activity.svg
+  ├── airplay.svg
+  └── your-icon-name.svg ← (Add yours here)
+\`\`\`
 
+✅ Use lowercase \`kebab-case\` filenames like \`message-circle.svg\`.
 
-Using Gitpod which gives you a preconfigured IDE and live preview. This is quick and you can see your changes:
+---
 
+## ✍️ How to Edit the Website
 
+You can contribute in **3 easy ways** — all require a GitHub account:
 
-Setting the website up locally, which is more technical.
+### 1️⃣ GitHub File Editor  
+- Use the built-in editor for small changes.
+- Best for minor updates or text/icon additions.
 
+### 2️⃣ Gitpod (Recommended)
+- Cloud-based IDE with live preview.
+- No installation needed.
+- Click below:
 
-Here is the div of which can be edited by contributures -
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/imuttamsaran/caticon)
 
+### 3️⃣ Local Setup (For Developers)
 
-Code & Design The Website
-You need some basic ability to use a terminal as well as some knowledge of web development like HTML, CSS, and JavaScript.
-
-git clone --single-branch --branch master https://github.com/imuttamsaran/caticon.git 
+\`\`\`bash
+git clone --single-branch --branch main https://github.com/imuttamsaran/caticon.git
 cd caticon
-bundle install
+npm install
+npm run dev
+\`\`\`
 
-👩‍🚀 Contributors, backers & sponsors
-This project exists thanks to all the people who contribute. 
+Make your changes → commit → push → create PR.
 
-Thank you to all our backers! 🙏 (Become a backer)
+---
 
+## 💡 How It Works
 
+- Icons live inside the \`public/svgIcon/\` folder
+- You can preview, copy, and download each icon
+- HTML code snippet auto-generates per icon
+- Click the code to copy it to your clipboard
+- Copy state is visually highlighted
 
-Support this project by becoming a sponsor. (Become a sponsor)
+---
 
+## 👨‍💻 Contributing
 
+We welcome contributions of all kinds:
 
-♥ Code of Conduct
-Please note that catIcon has a Contributor Code of Conduct. By participating in this project online or at events you agree to abide by its terms.
+- Add new icons
+- Improve existing icons
+- Enhance design / layout / accessibility
 
-📜 [LICENSE](https://github.com/imuttamsaran/caticon/blob/main/LICENSE)
-🔀 You can use & modify everything as long as you credit catIcon and use the same license for your resulting work.
+📖 Please follow structure and naming conventions.
+
+---
+
+## 🧾 License
+
+Released under the [MIT License](https://github.com/imuttamsaran/caticon/blob/main/LICENSE).
+
+> ✅ You may use, modify, distribute — just give credit to **catIcon** and maintain the same license.
+
+---
+
+## 🙌 Support & Thanks
+
+This project thrives because of awesome contributors like you.  
+Help us grow:
+
+- ⭐ Star the repo  
+- 💬 Share it  
+- 🧑‍🎨 Add your icon  
+- 🛠️ Submit improvements  
+- 💝 Sponsor us!
+
+---
+
+## 👮‍♀️ Code of Conduct
+
+We follow a [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/).  
+Be respectful, kind, and inclusive at all times.
+
+---
+
+## 📬 Connect
+
+- Creator: [@imuttamsaran](https://github.com/imuttamsaran)  
+- Live Website: [caticonlibrary.netlify.app](https://caticonlibrary.netlify.app/)  
+- Issues & Feedback: [Submit here](https://github.com/imuttamsaran/caticon/issues)
