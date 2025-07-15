@@ -1,0 +1,67 @@
+/* src/components/IconModal.css */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  color: #222;
+}
+
+.close-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.preview-box {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.svg-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.download-button {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  
+}
+
+.code-block {
+  background: #343332;
+  color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
