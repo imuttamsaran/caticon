@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        Made with ❤️ by <a href="https://github.com/imuttamsaran" target="_blank" rel="noopener noreferrer">YourName</a> · Open Source on{" "}
+        Made with ❤️ by <a href="https://uttamsaran.netlify.app/" target="_blank" rel="noopener noreferrer">Uttam Saran</a> · Open Source on{" "}
         <a href="https://github.com/imuttamsaran/caticon" target="_blank" rel="noopener noreferrer">GitHub</a>
       </p>
     </footer>
